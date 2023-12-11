@@ -1,0 +1,9 @@
+server.port=8082
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
+spring.cloud.gateway.discovery.locator.enabled=true
+spring.cloud.gateway.discovery.locator.lower-case-service-id=true
+
+#mongodb
+spring.data.mongodb.uri=mongodb+srv://shalem712:shalem712@cluster0.vsoogek.mongodb.net/wishlist-service
